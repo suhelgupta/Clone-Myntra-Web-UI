@@ -1,0 +1,92 @@
+
+.out-container{
+    background: linear-gradient(to right, #FDEDF3 , #FCF0E4); 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-div{
+    width: 450px;
+    margin-top: 120px;
+    padding: 0;
+    background: white;
+    // border: 2px solid black;
+    height: 80vh;
+    img{
+        width: 100%;
+    }
+}
+
+.input-group-prepend,.input-group-text{
+    background: white;
+    border: none;
+}
+
+.input-group{
+    background: white;
+    border: 1 px solid black;
+
+    input{
+        border: none;
+        border-left: 1px solid gray;
+        &:focus{
+            border: none;
+            outline: none;
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: none;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.input-group-prepend{
+    border-right: 1px solid rgb(155, 144, 144);
+}
+.formss{
+    // margin: 20px;
+    padding: 50px;
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-size: 2rem;
+}
+
+.cont{
+    
+    p{
+        margin-top: 25px;
+        font-size: 1rem;
+        margin-bottom: 25px;
+        
+    }
+    span{
+        font-weight: bold;
+        a{
+            color: red;
+            text-decoration: none;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .login-div{
+        width: 80%;
+        // height: 70vh;
+        margin-top: 90px;
+    }
+    .formss{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1400px){
+    .login-div{
+        width: 450px;
+        height: 70vh;
+    }
+    .formss{
+        font-size: 1rem;
+    }
+}

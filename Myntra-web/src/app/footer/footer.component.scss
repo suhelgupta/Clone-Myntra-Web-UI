@@ -1,0 +1,109 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+
+    hr{
+        border: 0px;
+        color: black;
+    }
+}
+footer{
+    background-color: rgb(29, 93, 149);
+    margin-top: 5px;
+
+}
+
+.Shoping{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 2%;
+    p > a{
+        font-size: 1rem;
+    text-decoration: none;
+    color: rgb(80, 77, 77);
+    font-family: 'Times New Roman', Times, serif;
+
+    }
+}
+.items{
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgba(80, 77, 77, 0.294);
+}
+
+.span{
+    background: red;
+    border-radius: 30px;
+    padding: px;
+    margin: 2px;
+    color: #000;
+    overflow: hidden;
+}
+
+p{
+    overflow: hidden;
+}
+
+.img-contain{
+    width: 300px;
+    img{
+        width: 55%;
+        height: 80%;
+    }
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.fact{
+    width: 250px;
+    flex-direction: column;
+}
+
+// .fact > img{
+//     width: 20px;
+// }
+
+.orignal{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    img{
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+    }
+
+}
+
+.data{
+    padding: 15px;
+}
+
+.graytext{
+    color: rgb(80, 77, 77);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.headingss{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.div1,.div2,.div4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media only screen and (max-width: 1000px){
+    .div4{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+    .div3{
+        display: none;
+    }
+}

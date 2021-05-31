@@ -1,0 +1,87 @@
+<hr>
+<div style="background-color: rgb(231, 237, 240);">
+    <div class="d-flex justify-content-center">
+        <div class="container footer d-flex justify-content-center">
+            <div class="Shoping flex div1" >
+                <h6 class="headingss">ONLINE SHOPING</h6><Br>
+                <p *ngFor="let onlineShoping of onlineShopings"><a class="items" href="#">{{onlineShoping}}</a></p>
+                <p><a class="items mx-1" href="#">Myntra Insider <span class="span">New</span></a></p>
+            </div>
+            <div class="Shoping div2" >
+                <h6 class="headingss">USEFUL LINKS</h6><Br>
+                <p *ngFor="let useFulLink of useFulLinks"><a class="items" href="#">{{useFulLink}}</a></p>
+            </div>
+            <div class="Shoping div3" >
+                <h6 class="headingss">EXPERIENCE MYNTRA APP ON MOBILE</h6><Br>
+                <div class="img-contain d-flex">
+                    <img src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png" alt="">
+                    <img src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png" alt="">
+                </div>  
+                <Br><Br><h6 class="headingss">KEEP IN TOUCH</h6>
+                <div class="icon-contain d-flex ">
+                    <div class="icon"><i class="fab fa-facebook"></i></div>
+                    <div class="icon"><i class="fab fa-twitter"></i></div>
+                    <div class="icon"><i class="fab fa-instagram"></i></div>
+                    <div class="icon"><i class="fab fa-youtube"></i></div>
+                </div>  
+            </div>
+            <div class="Shoping div4" >
+                <div class="d-flex fact">
+                    <div class="orignal">
+                        <div class="img"><img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" alt=""></div>
+                        <div style="width: 190px;"><strong>100% Orignal</strong> guarantee for all products at myntra.com</div>
+                    </div>
+                    <div class="orignal">
+                        <div class="img"><img src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png" alt=""></div>
+                        <div style="width: 170px;"><strong>Return within 30days </strong>of receiving your order</div>
+                    </div>
+                    <div class="orignal">
+                        <div class="img"><img src="https://constant.myntassets.com/web/assets/img/cafa8f3c-100e-47f1-8b1c-1d2424de71041574602902399-truck.png" alt=""></div>
+                        <div style="width: 170px;"><strong>Get free delivery</strong>for every order above Rs. 799</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="container">
+            <div class="popular-searches">
+                <div class="d-flex align-item-center">    
+                    <div class=""><H5>POPULAR SEARCHES</H5></div>
+                    <div style="flex-grow: 6;margin-top: 15px;"><hr></div>
+                </div>
+                <span class="graytext" *ngFor="let popularSearch of popularSearchs" >{{popularSearch}} &nbsp;|&nbsp;</span>
+                <br><br>
+                <div class="d-flex">
+                    <p> In case of any Concern, <a href="">Contact Us</a></p>   
+                    <p class="ml-auto">© 2021 www.myntra.com. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="container">
+            <hr>
+            <div class="popular-searches">
+                <div class="d-flex align-item-center">    
+                    <div class=""><H5>Registered Office Address</H5></div>
+                    <!-- <div style="flex-grow: 6;margin-top: 15px;"><hr></div> -->
+                </div>
+                <div class="d-flex">
+                    <p style="width: 30%;"> Buildings Alyssa,<br>
+                        Begonia and Clover situated in Embassy Tech Village,<br>
+                        Outer Ring Road,<br>
+                        Devarabeesanahalli Village,<br>
+                        Varthur Hobli,<br>
+                        Bengaluru – 560103, India</p>   
+                    <p class="ml-auto d-flex align-items-end" >
+                        Bengaluru – 560103, India<br>
+                        CIN: U72300KA2007PTC041799 <br>
+                        Telephone: +91-80-61561999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+</div>

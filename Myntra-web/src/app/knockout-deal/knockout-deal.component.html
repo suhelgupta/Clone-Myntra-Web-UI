@@ -1,0 +1,68 @@
+<div>
+    <div class="bigimg">
+        <img class="img-fluid" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/27/39146519-6d49-4bea-805e-732c3779a6bf1622110825641-Deal-Carousel.gif" alt="">
+    </div>
+    <div class="smimg">
+        <img class="img-fluid" src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/5/27/fd37d841-6fac-4e91-b36f-7623d23496db1622115641094-DealCarousel.gif" alt="">
+    </div>
+    <div class="d-flex Knockout-Deal">
+        <div class="item"  *ngFor="let sres of knocoutdeals"><img [src]="sres" alt=""></div>
+    </div>
+
+    <div class="bigimg">
+        <img class="img-fluid" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/27/53af3b75-a90e-49ea-81fb-50ba17d6dc651622110825746-Scrollable.gif" alt="">
+    </div>
+    <div class="smimg">
+        <img class="img-fluid" src="///assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/5/27/792a20aa-cf30-4412-82d5-64c042e8e6cf1622115641162-Scrollable.gif" alt="">
+    </div>
+
+    <div class="bigimg">
+        <img class="img-fluid" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/27/3a8355dd-c90b-4a6c-aff2-96203d6b2a5d1622110825692-Her.jpg" alt="">
+    </div>
+    <div class="smimg">
+        <img class="img-fluid" src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/5/27/87d972fb-637e-430f-a84f-733dff8a4cb21622116430807-ShopForHer.jpg" alt="">
+    </div>
+
+    <div class="d-flex justify-content-around flex-wrap ShopForHer">
+        <div class="item1 my-3" *ngFor="let shopher of ShopForHer"><img [src]="shopher" alt=""></div>
+    </div>
+
+    <div class="bigimg">
+        <img class="img-fluid" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/27/3fb72ca1-59aa-4985-bea5-e07b885394991622110825698-Him.jpg" alt="">
+    </div>
+    <div class="smimg">
+        <img class="img-fluid" src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/5/27/0b8a07bb-9d8c-47a2-b47d-1e6324701d351622116430812-Shop-For-Him.jpg" alt="">
+    </div>
+    <div class="d-flex justify-content-around flex-wrap shophim">
+        <div class="item1 my-3" *ngFor="let shophim of ShopForHim"><img [src]="shophim" alt=""></div>
+    </div>
+
+    <div class="bigimg">
+        <img class="img-fluid" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/27/e8fca164-e7ed-4f5a-80e0-1ed9bb041be81622110825721-Most-Loved.gif" alt="">
+    </div>
+    <div class="smimg">
+        <img class="img-fluid" src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/5/27/ae845710-f282-4c4a-b464-10c29cb50e0a1622115641149-MonetizedMorebrands.gif" alt="">
+    </div>
+    <div class="d-flex justify-content-around flex-wrap lovebrand">
+        <div class="item2" *ngFor="let lovebrand of MostLovedBrand"><img [src]="lovebrand" alt=""></div>
+    </div>
+
+    <div class="bigimg">
+        <img class="img-fluid" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/27/35930ac7-0d67-443c-8040-ce27c68c0bf51622110825752-Shop-By-category.gif" alt="">
+    </div>
+    <div class="smimg">
+        <img class="img-fluid" src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2021/5/27/d267a0dc-40c2-40e5-8d64-336d05f7822f1622115641169-ShopByCategory.gif" alt="">
+    </div>
+
+    <div class="d-flex ShopByCatagory justify-content-center flex-wrap">
+        <div class="card" *ngFor="let cat of shopbycatagory; let i = index">
+            <img [src]="cat.link" class="img-fluid" alt="Avatar" style="width:100%">
+            <div class="container text-center">
+              <h5 class="text-card"><b>{{cat.name}}</b></h5> 
+              <h3 class="text-card">{{cat.offer}}</h3> 
+              <h5 class="text-card"><b>{{cat.tag}}</b></h5> 
+            </div>
+        </div>
+    </div>
+    
+</div>
